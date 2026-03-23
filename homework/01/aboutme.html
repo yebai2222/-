@@ -1,0 +1,135 @@
+HTML
+<!DOCTYPE html>
+<html lang="zh-TW">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>王翊宏的個人首頁</title>
+    <style>
+        :root {
+            --primary-color: #2c3e50;
+            --accent-color: #3498db;
+            --bg-color: #f4f7f6;
+            --text-color: #333;
+        }
+
+        body {
+            font-family: "Microsoft JhengHei", sans-serif;
+            line-height: 1.6;
+            margin: 0;
+            padding: 0;
+            background-color: var(--bg-color);
+            color: var(--text-color);
+        }
+
+        header {
+            background: linear-gradient(135deg, var(--primary-color), var(--accent-color));
+            color: white;
+            padding: 3rem 1rem;
+            text-align: center;
+            box-shadow: 0 2px 5px rgba(0,0,0,0.1);
+        }
+
+        .container {
+            max-width: 800px;
+            margin: 2rem auto;
+            padding: 0 1rem;
+        }
+
+        section {
+            background: white;
+            margin-bottom: 1.5rem;
+            padding: 1.5rem;
+            border-radius: 8px;
+            box-shadow: 0 4px 6px rgba(0,0,0,0.05);
+            transition: transform 0.3s ease;
+        }
+
+        section:hover {
+            transform: translateY(-5px);
+        }
+
+        h2 {
+            color: var(--primary-color);
+            border-left: 5px solid var(--accent-color);
+            padding-left: 10px;
+            margin-top: 0;
+        }
+
+        ul {
+            list-style-type: none;
+            padding: 0;
+        }
+
+        li {
+            padding: 0.5rem 0;
+            border-bottom: 1px dotted #eee;
+        }
+
+        li:last-child {
+            border-bottom: none;
+        }
+
+        .tag {
+            display: inline-block;
+            background: var(--accent-color);
+            color: white;
+            padding: 0.2rem 0.8rem;
+            border-radius: 20px;
+            font-size: 0.9rem;
+            margin-right: 5px;
+        }
+
+        footer {
+            text-align: center;
+            padding: 2rem;
+            font-size: 0.9rem;
+            color: #777;
+        }
+    </style>
+</head>
+<body>
+
+<header>
+    <h1>王翊宏 (Wang, Yi-Hung)</h1>
+    <p>國立金門大學 | 資訊工程學系 一年級</p>
+</header>
+
+<div class="container">
+    <section>
+        <h2>🎨 我的興趣</h2>
+        <p>在課業之餘，我熱衷於：</p>
+        <ul>
+            <li>🎮 <strong>玩遊戲</strong> - 探索虛擬世界的無限可能</li>
+            <li>🛼 <strong>溜冰</strong> - 享受速度與平衡的快感</li>
+            <li>💪 <strong>健身</strong> - 持續挑戰自我體能</li>
+        </ul>
+    </section>
+
+    <section>
+        <h2>🎵 喜愛歌單</h2>
+        <p>這些音樂伴隨我的學習與生活：</p>
+        <ul>
+            <li><span class="tag">J-Pop</span> 9lana - <em>propose</em></li>
+            <li><span class="tag">Indie</span> 草東沒有派對</li>
+            <li><span class="tag">J-Pop</span> natori - <em>金木犀</em></li>
+        </ul>
+    </section>
+
+    <section>
+        <h2>🚀 未來計畫</h2>
+        <p>目前我正朝著以下目標邁進：</p>
+        <ul>
+            <li>💻 <strong>網頁設計</strong>：精進前端技術，打造更棒的數位體驗。</li>
+            <li>📖 <strong>創作輕小說</strong>：將腦中的靈感化為文字，完成屬於自己的作品。</li>
+            <li>🖥️ <strong>設備升級</strong>：計畫汰換電腦，提升開發與娛樂的效率。</li>
+        </ul>
+    </section>
+</div>
+
+<footer>
+    <p>&copy; 2026 王翊宏 - 個人網頁展示</p>
+</footer>
+
+</body>
+</html>
